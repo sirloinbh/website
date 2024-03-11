@@ -86,18 +86,18 @@ button:focus-visible {
 }
 
 .loginForm img {
-  max-width: 100px; /* 로고 이미지의 최대 너비를 100px로 설정 */
-  margin-bottom: 20px; /* 로고와 다음 요소 사이의 마진 설정 */
+  max-width: 100px; 
+  margin-bottom: 20px; 
 }
 
-/* LoginForm.css 추가/수정된 부분 */
+
 .inputWrapper {
   text-align: left;
   min-width: 20%;
 }
 
 .passwordLabel {
-  color: white; /* 라벨 텍스트 색상을 흰색으로 설정 */
+  color: white; 
 }
 
 

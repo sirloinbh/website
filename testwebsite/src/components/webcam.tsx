@@ -6,7 +6,6 @@ const CameraStream: React.FC = () => {
   useEffect(() => {
     const getVideo = async () => {
       try {
-        // 비디오 설정에서 aspectRatio를 16:9로 설정
         const constraints = {
           video: {
             aspectRatio: 16 / 9
