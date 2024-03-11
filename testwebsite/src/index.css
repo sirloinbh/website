@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* LoginForm.css */
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.loginForm img {
+  max-width: 100px; /* 로고 이미지의 최대 너비를 100px로 설정 */
+  margin-bottom: 20px; /* 로고와 다음 요소 사이의 마진 설정 */
+}
+
+/* LoginForm.css 추가/수정된 부분 */
+.inputWrapper {
+  text-align: left;
+  min-width: 20%;
+}
+
+.passwordLabel {
+  color: white; /* 라벨 텍스트 색상을 흰색으로 설정 */
+}
+
+
+.loginForm input, .loginForm button {
+  margin-top: 0px; 
+  margin-bottom: 20px; 
+  border-radius: 0; 
+  min-width: 20vw; 
+}
+
+.loginButton {
+  background-color: blue; 
+  border-radius: 0; 
+  color: white; 
+  width: 20%; 
+  cursor: pointer;
+}
+
+

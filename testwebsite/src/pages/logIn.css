@@ -1,0 +1,43 @@
+/* LoginForm.css */
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: white; /* 폼 내의 텍스트 색상을 흰색으로 설정 */
+}
+
+.inputWrapper {
+  text-align: left;
+  width: 100%; /* 입력 폼의 너비를 전체로 설정 */
+  max-width: 200px; /* 최대 너비 설정 */
+  display: flex;
+  flex-direction: column;
+}
+
+.passwordLabel {
+  color: white; /* 라벨 텍스트 색상을 흰색으로 설정 */
+  margin-bottom: 5px; /* 입력 폼과의 간격 */
+}
+
+.inputWrapper input[type="password"] {
+  color: black; 
+
+}
+
+.loginForm input, .loginForm button {
+  margin-top: 10px; /* 입력 필드와 버튼 사이의 마진 조정 */
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; /* 입력 필드와 버튼의 너비 */
+  height: 40px; /* 입력 필드와 버튼의 높이 */
+}
+
+.loginButton {
+  background-color: blue; /* 버튼 배경색을 파란색으로 설정 */
+  border-radius: 0; /* 모서리를 둥글지 않게 설정 */
+  color: white; /* 버튼 텍스트 색상을 흰색으로 설정 */
+  cursor: pointer;
+}
